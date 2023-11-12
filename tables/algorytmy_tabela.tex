@@ -1,0 +1,45 @@
+\begin{table}[htbp]
+	\centering
+        \renewcommand{\arraystretch}{1.5}
+	\begin{tabular}{| c || c | c | c | c | c |}
+		\hline
+		Rozmiar danych: & 10 & 20 & 50 & 100 & 1000 \\ \hline \hline
+		$\log n$ & 
+            3,32 ns & 
+            4,23 ns & 
+            5,64 ns & 
+            6,64 ns &
+            9,97 ns \\ \hline
+		$n$ & 
+            10 ns & 
+            20 ns & 
+            50 ns & 
+            100 ns & 
+            1 $\mu s$ \\ \hline
+		$n \log n$ &
+		33,21 ns &
+		86,44 ns &
+		282,2 ns &
+		664,4 ns &
+		9,97 $\mu s$ \\ \hline
+		$n^2$ &
+		100 ns &
+		400 ns &
+		2,5 $\mu s$ &
+		10 $\mu s$ &
+		1 ms \\ \hline
+		$n^3$ &
+		1 $\mu s$ &
+		1,05 ms &
+		13 dni &
+		  $4 \times 10^{13}$ lat &
+		$3,4 \times 10^{284}$ lat \\ \hline
+		$n!$ &
+		3,6 ms &
+		77 lat &
+		$9,6 \times 10^{44}$ lat &
+		$3 \times 10^{141}$ lat & $1,27 \times 10^{2551}$ lat \\ \hline
+	\end{tabular}
+    \label{tab:algorytmy_tabela}
+    \caption{Złożoność obliczeniowa względem rozmiaru danych wejściowych}
+\end{table}
